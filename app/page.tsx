@@ -26,6 +26,9 @@ export default function Home() {
         <li>
           <Link href="/specialty-food">Specialty Offerings</Link>
         </li>
+        <li>
+          <Link href="/cocktail">Cocktail</Link>
+        </li>
       </ul>
     </main>
   );
