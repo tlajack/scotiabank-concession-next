@@ -359,7 +359,15 @@ export default function DraughtDeckPage() {
           <h2>Coca-Cola Bottled Beverages</h2>
           <p className="price">8.25</p>
           <div className="description">
-            <p>Root Beer, Nestea, Apple Juice, AHA&nbsp;Sparkling Water</p>
+            <ul style={{ listStyle: 'none', paddingLeft: '1em' }}>
+              <li>Coca Cola Classic</li>
+              <li>Coke Zero</li>
+              <li>Diet Coke</li>
+              <li>Fuze Iced Tea</li>
+              <li>Fanta Orange</li>
+              <li>Sprite</li>
+              <li>Barq&apos;s Root Beer</li>
+            </ul>
           </div>
         </MenuItem>
         <MenuItem>

@@ -238,60 +238,62 @@ export default function DraughtDeckPage() {
             style={{ width: '100%', height: 'auto', gridColumn: '1/3', marginBottom: '1em' }}
           />
           <h2>Prime Rib Sandwich</h2>
-          <p className="price">25.50</p>
+          <p className="price">26.75</p>
           <div className="description">
             <p>
               Hand Carved AAA Prime Rib Sandwich served on a Fresh Onion Bun
               with Kettle Chips
             </p>
             <p>
-              <strong>Add Fries for $5.00</strong>
+              <strong>SIDE MAC & CHEESE: $6.75</strong> <br/>
+              <strong>ADD SIDE FRIES: $5.75</strong>
             </p>
           </div>
         </MenuItem>
-        <MenuItem>
-          <Image
-            className="menuPhoto"
-            src="/images/CherrySt-7.jpg"
-            alt="Brisket Sandwich"
-            width={620}
-            height={400}
-            style={{ width: '100%', height: 'auto', gridColumn: '1/3', marginBottom: '1em' }}
-          />
-          <h2>Cherry Street Brisket Sandwich</h2>
-          <p className="price">21.50</p>
-          <div className="description">
-            <p>
-              Texas Style Beef Brisket smoked over white oak, Pickles, Onions
-              and House BBQ sauce on a Toasted Potato Scallion Bun
-            </p>
-            <p>
-              <strong>Add Fries for $5.00</strong>
-            </p>
-          </div>
-        </MenuItem>
+        
         <MenuItem>
           <Image
             className="menuPhoto"
             src="/images/CherrySt-8.jpg"
-            alt="Cherry Street Double Stack Burger"
+            alt="Double Stack Burger"
             width={620}
             height={400}
             style={{ width: '100%', height: 'auto', gridColumn: '1/3', marginBottom: '1em' }}
           />
-          <h2>Cherry Street Double Stack Burger</h2>
-          <p className="price">20.00</p>
+          <h2>Double Stack Burger</h2>
+          <p className="price">24.25</p>
           <div className="description">
-            <p>
+            {/* <p>
               Two 4oz USDA Prime Brisket Patties, Lettuce, Tomato, Onion,
               Pickles, Cherry Street Special Sauce on a Toasted Potato Scallion
               Roll
-            </p>
+            </p> */}
             <p>
-              <strong>Add Fries for $5.00</strong>
+              <strong>SIDE MAC & CHEESE: $6.75</strong> <br/>
+              <strong>ADD SIDE FRIES: $5.75</strong>
             </p>
           </div>
         </MenuItem>
+        <MenuItem>
+          <Image
+            className="menuPhoto"
+            src="/images/CherrySt-11.jpg"
+            alt="SMOKED TURKEY SANDWICH"
+            width={620}
+            height={400}
+            style={{ width: '100%', height: 'auto', gridColumn: '1/3', marginBottom: '1em' }}
+          />
+          <h2>SMOKED TURKEY SANDWICH</h2>
+          <p className="price">20.25</p>
+          <div className="description">
+
+            <p>
+              <strong>SIDE MAC & CHEESE: $6.75</strong> <br/>
+              <strong>ADD SIDE FRIES: $5.75</strong>
+            </p>
+          </div>
+        </MenuItem>
+
         <MenuItem>
           <Image
             className="menuPhoto"
@@ -302,31 +304,33 @@ export default function DraughtDeckPage() {
             style={{ width: '100%', height: 'auto', gridColumn: '1/3', marginBottom: '1em' }}
           />
           <h2>Cherry Street Pulled Pork Sandwich</h2>
-          <p className="price">18.50</p>
+          <p className="price">19.75</p>
           <div className="description">
-            <p>
+            {/* <p>
               Slow Smoked Pork Shoulder, Slaw, Pickle and BBQ Sauce on a Toasted
               Potato Scallion Bun
-            </p>
+            </p> */}
             <p>
-              <strong>Add Fries for $5.00</strong>
+              <strong>SIDE MAC & CHEESE: $6.75</strong> <br/>
+              <strong>ADD SIDE FRIES: $5.75</strong>
             </p>
           </div>
         </MenuItem>
         <MenuItem>
           <Image
             className="menuPhoto"
-            src="/images/CherrySt-9.jpg"
-            alt="Cherry Street Porchetta Sausage"
+            src="/images/CherrySt-12.jpg"
+            alt="CHEDDAR & JALAPENO SAUSAGE"
             width={620}
             height={400}
             style={{ width: '100%', height: 'auto', gridColumn: '1/3', marginBottom: '1em' }}
           />
-          <h2>Cherry Street Porchetta Sausage</h2>
-          <p className="price">14.50</p>
+          <h2>CHEDDAR & JALAPENO SAUSAGE</h2>
+          <p className="price">16.25</p>
           <div className="description">
             <p>
-              <strong>Add Fries for $5.00</strong>
+              <strong>SIDE MAC & CHEESE: $6.75</strong> <br/>
+              <strong>ADD SIDE FRIES: $5.75</strong>
             </p>
           </div>
         </MenuItem>
@@ -339,61 +343,51 @@ export default function DraughtDeckPage() {
             height={400}
             style={{ width: '100%', height: 'auto', gridColumn: '1/3', marginBottom: '1em' }}
           />
-          <h2>Cherry Street BBQ Empanadas </h2>
-          <p className="price">13.00</p>
+          <h2>Empanadas (Vegan or Chicken)</h2>
+          <p className="price">17.25</p>
           <div className="description">
             <p>
-              <strong>Add Fries for $5.00</strong>
+              <strong>SIDE MAC & CHEESE: $6.75</strong> <br/>
+              <strong>ADD SIDE FRIES: $5.75</strong>
             </p>
           </div>
         </MenuItem>
         <p className="notes">Prices exclude all applicable taxes</p>
         <h1 id="nonalcoholic">NON-ALCOHOLIC</h1>
-        <MenuItem>
-          <h2>32oz Collector Cup</h2>
-          <p className="price">12.25</p>
-          <div className="description">
-            <p>Coke, Diet Coke, Sprite, Coke Zero Sugar, Fanta</p>
-          </div>
-        </MenuItem>
-        <MenuItem>
-          <h2>Coca-Cola Fountain Beverages</h2>
-          <p className="price">7.75</p>
-          <div className="description">
-            <p>Coke, Diet Coke, Sprite, Coke Zero Sugar, Fanta</p>
-          </div>
-        </MenuItem>
+
         <MenuItem>
           <h2>Coca-Cola Bottled Beverages</h2>
-          <p className="price">7.75</p>
+          <p className="price">8.25</p>
           <div className="description">
-            <p>Root Beer, Nestea, Apple Juice, AHA&nbsp;Sparkling Water</p>
+            <ul style={{ listStyle: 'none', paddingLeft: '1em' }}>
+              <li>Coca Cola Classic</li>
+              <li>Coke Zero</li>
+              <li>Diet Coke</li>
+              <li>Fuze Iced Tea</li>
+              <li>Fanta Orange</li>
+              <li>Sprite</li>
+              <li>Barq&apos;s Root Beer</li>
+            </ul>
           </div>
         </MenuItem>
         <MenuItem>
           <h2>smartwater</h2>
-          <p className="price">7.25</p>
+          <p className="price">7.75</p>
         </MenuItem>
-        <MenuItem>
-          <h2>Red Bull</h2>
-          <p className="price">8.00</p>
-          <div className="description">
-            <p>Regular or Sugar Free</p>
-          </div>
-        </MenuItem>
+        
         <p className="notes">Prices exclude all applicable taxes</p>
         <h1 id="snacks">SNACKS</h1>
         <MenuItem>
-          <h2>Bagged Popcorn</h2>
-          <p className="price">10.50</p>
+          <h2>Collector Popcorn Bucket</h2>
+          <p className="price">18.75</p>
         </MenuItem>
         <MenuItem>
           <h2>Bagged Chocolate</h2>
-          <p className="price">12.25</p>
+          <p className="price">13.25</p>
         </MenuItem>
         <MenuItem>
           <h2>Bagged Candy</h2>
-          <p className="price">10.50</p>
+          <p className="price">11.25</p>
         </MenuItem>
         <p className="notes">Prices exclude all applicable taxes</p>
         <DraughtDeck id="alcohol">
@@ -410,397 +404,307 @@ export default function DraughtDeckPage() {
             alcohol. Please have your ID ready. Scotiabank Arena has a 2-drink
             limit.
           </p>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-01a.png" alt="Coors Light" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Coors Light</h1>
-              <div className="description">
-                <p className="drinkType">DRAUGHT</p>
-                <p className="drinkPrice">
-                  625ml - $14.50
-                  <br />
-                  725ml - $17.50
-                </p>
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$13.25</p>
-              </div>
-            </div>
-          </Drinks>
+          <h1 className="sectionTitle">Draught</h1>
+          <Liquor>
+            <p className="liquorTitle">Domestic Draught</p>
+            <p className="liquorPrice">
+              625ml - $15.75
+              <br />
+              725ml - $18.75
+            </p>
+          </Liquor>
+          <Image
+            src="/images/buttons-group-1.png"
+            alt="Domestic Draught options"
+            width={1000}
+            height={126}
+            style={{ width: '80%', height: 'auto', display: 'block', margin: '0 auto 2em' }}
+          />
 
-          <Drinks>
-            <div>
-              <Image src="/images/drink-01.png" alt="Molson Canadian" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Molson Canadian</h1>
-              <div className="description">
-                <p className="drinkType">DRAUGHT</p>
-                <p className="drinkPrice">
-                  625ml - $14.50
-                  <br />
-                  725ml - $17.50
-                </p>
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$13.25</p>
-              </div>
-            </div>
-          </Drinks>
+          <Liquor>
+            <p className="liquorTitle">Premium Draught</p>
+            <p className="liquorPrice">
+              625ml - $16.50
+              <br />
+              725ml - $19.50
+            </p>
+          </Liquor>
+          <Image
+            src="/images/buttons-group-2.png"
+            alt="Premium Draught options"
+            width={1000}
+            height={126}
+            style={{ width: '80%', height: 'auto', display: 'block', margin: '0 auto 2em' }}
+          />
 
-          <Drinks>
-            <div>
-              <Image src="/images/drink-02.png" alt="Coors Original" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Coors Original</h1>
-              <div className="description">
-                <p className="drinkType">DRAUGHT</p>
-                <p className="drinkPrice">
-                  625ml - $15.25
-                  <br />
-                  725ml - $18.25
-                </p>
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-03-alt.png" alt="BLUE MOON" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>BLUE MOON</h1>
-              <div className="description">
-                <p className="drinkType">DRAUGHT</p>
-                <p className="drinkPrice">
-                  625ml - $15.25
-                  <br />
-                  725ml - $18.25
-                </p>
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-04.png" alt="Hop Valley IPA" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Hop Valley IPA</h1>
-              <div className="description">
-                <p className="drinkType">DRAUGHT</p>
-                <p className="drinkPrice">
-                  625ml - $15.25
-                  <br />
-                  725ml - $18.25
-                </p>
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-05.png" alt="CREEMORE LAGER" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>CREEMORE LAGER</h1>
-              <div className="description">
-                <p className="drinkType">DRAUGHT</p>
-                <p className="drinkPrice">
-                  625ml - $15.25
-                  <br />
-                  725ml - $18.25
-                </p>
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-05-IPA.png" alt="CREEMORE IPA" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>CREEMORE IPA</h1>
-              <div className="description">
-                <p className="drinkType">DRAUGHT</p>
-                <p className="drinkPrice">
-                  625ml - $15.25
-                  <br />
-                  725ml - $18.25
-                </p>
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
+          <h1 className="sectionTitle">Tall Cans</h1>
+          <Liquor>
+            <p className="liquorTitle">Domestic Tall Can</p>
+            <p className="liquorPrice">$14.25</p>
+          </Liquor>
+          <Image
+            src="/images/buttons-group-3.png"
+            alt="Domestic Tall Can options"
+            width={1000}
+            height={126}
+            style={{ width: '80%', height: 'auto', display: 'block', margin: '0 auto 2em' }}
+          />
 
-          <Drinks>
-            <div>
-              <Image src="/images/drink-13.png" alt="Miller Lite" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Miller Lite</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$13.25</p>
-              </div>
-            </div>
-          </Drinks>
+          <Liquor>
+            <p className="liquorTitle">Premium Tall Can</p>
+            <p className="liquorPrice">$15.25</p>
+          </Liquor>
+          <Image
+            src="/images/buttons-group-4.png"
+            alt="Premium Tall Can options"
+            width={1000}
+            height={126}
+            style={{ width: '80%', height: 'auto', display: 'block', margin: '0 auto 2em' }}
+          />
 
-          <Drinks>
-            <div>
-              <Image src="/images/drink-07-alt.png" alt="CREEMORE PILSNER" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>CREEMORE PILSNER</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-08.png" alt="Sol" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Sol</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-09.png" alt="HEINEKEN" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>HEINEKEN</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.75</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-10.png" alt="strongbow cider" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>strongbow cider</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.75</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-28.png" alt="Madri Exceptional" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Madri Exceptional</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.75</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-11-alt.png" alt="Vizzy" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Vizzy Hard Seltzer</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-15.png" alt="Smirnoff Ice" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Smirnoff Ice</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-27.png" alt="Arizona Hard Ice Tea" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Arizona Hard Ice Tea</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
-            <div>
-              <Image src="/images/drink-29.png" alt="Coors Seltzer" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Coors Seltzer</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.25</p>
-              </div>
-            </div>
-          </Drinks>
+          <Liquor>
+            <p className="liquorTitle">Imported Tall Can</p>
+            <p className="liquorPrice">$15.75</p>
+          </Liquor>
+          <Image
+            src="/images/buttons-group-5.png"
+            alt="Imported Tall Can options"
+            width={1000}
+            height={126}
+            style={{ width: '80%', height: 'auto', display: 'block', margin: '0 auto 2em' }}
+          />
 
-          <Drinks>
-            <div>
-              <Image src="/images/drink-24.png" alt="Heineken 0.0" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
-            </div>
-            <div>
-              <h1>Heineken 0.0</h1>
-              <div className="description">
-                <p className="drinkType">Non-Alcoholic Beer</p>
-                <p className="drinkPrice"></p>
-                <p className="drinkType">330ml CAN</p>
-                <p className="drinkPrice">$8.50</p>
-              </div>
-            </div>
-          </Drinks>
+          <Liquor>
+            <h1 className="sectionTitle">Wine</h1>
+            <p className="liquorTitle">9oz House</p>
+            <p className="liquorPrice">$21.50</p>
+            <p className="liquorTitle">
+              <em>
+                Yellow Tail Cabernet Sauvignon
+                <br />
+                Bolla Pinot Grigio
+              </em>
+            </p>
+            <p></p>
+            <p className="liquorTitle">9oz Premium</p>
+            <p className="liquorPrice">$24.75</p>
+            <p className="liquorTitle">
+              <em>
+                Villa Maria Sauvignon Blanc
+                <br />
+                Don David Reserve Malbec
+                <br />
+                Bolla Valpolicella Classico
+              </em>
+            </p>
+            <p></p>
+          </Liquor>
+
+          <Liquor>
+            <h1 className="sectionTitle">Coolers &amp; Seltzers</h1>
+            <p className="liquorTitle">Coors Seltzer Grape Slushie</p>
+            <p className="liquorPrice">$15.25</p>
+            <p className="liquorTitle">Coors Seltzer Cherry Slushie</p>
+            <p className="liquorPrice">$15.25</p>
+            <p className="liquorTitle">Vizzy Blueberry Pomegranate</p>
+            <p className="liquorPrice">$15.25</p>
+            <p className="liquorTitle">Arizona Hard Iced Tea</p>
+            <p className="liquorPrice">$15.25</p>
+            <p className="liquorTitle">Arizona Half &amp; Half</p>
+            <p className="liquorPrice">$15.25</p>
+            <p className="liquorTitle">Simply Lemonade</p>
+            <p className="liquorPrice">$15.25</p>
+            <p className="liquorTitle">Simply Limeade</p>
+            <p className="liquorPrice">$15.25</p>
+            <p className="liquorTitle">Smirnoff Ice</p>
+            <p className="liquorPrice">$15.25</p>
+          </Liquor>
+
+          <Liquor>
+            <h1 className="sectionTitle">Liquor</h1>
+            <p className="liquorTitle">Premium</p>
+            <p className="liquorPrice">
+              1oz - $14.50
+              <br />
+              2oz - $26.50
+            </p>
+            <p className="liquorTitle">Deluxe</p>
+            <p className="liquorPrice">
+              1oz - $15.00
+              <br />
+              2oz - $28.00
+            </p>
+            <p className="liquorTitle">Ultra-Premium</p>
+            <p className="liquorPrice">
+              1oz - $15.75
+              <br />
+              2oz - $29.00
+            </p>
+            <p className="liquorTitle">Don Julio Blanco</p>
+            <p className="liquorPrice">
+              1oz - $19.50
+              <br />
+              2oz - $37.25
+            </p>
+            <p className="liquorTitle">Matt &amp; Steve&apos;s Caesar</p>
+            <p className="liquorPrice">
+              1oz - $19.00
+              <br />
+              2oz - $30.25
+            </p>
+            <p className="liquorTitle">Signature Cocktail</p>
+            <p className="liquorPrice">$21.25</p>
+          </Liquor>
+
+          <Liquor>
+            <h1 className="sectionTitle">Non-Alcoholics</h1>
+            <p className="liquorTitle">Heineken 0.0</p>
+            <p className="liquorPrice">$9.00</p>
+            <p className="liquorTitle">smartwater</p>
+            <p className="liquorPrice">$7.75</p>
+            <p className="liquorTitle">Red Bull</p>
+            <p className="liquorPrice">$8.50</p>
+            <p className="liquorTitle">24oz Fountain Pop &amp; Juice</p>
+            <p className="liquorPrice">$8.25</p>
+          </Liquor>
+
           <h1 className="sectionTitle">Signature Cocktails</h1>
 
           <Drinks>
             <div>
-              <Image src="/images/drink-25.png" alt="Mango Tango " width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/cocktail-Sangria-red-2.png" alt="Red Sangria" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
-              <h1>Mango Tango </h1>
+              <h1>Red Sangria</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  1.5oz CIROC Mango, Cranberry Juice, Lemonade, Sprite
+                  Crown Royal Blackberry, Yellow Tail Cabernet Sauvignon, POM Pomegranate Juice, Ginger Ale, Apple Garnish
                 </p>
-                <p className="drinkPrice">$20.00</p>
+                <p className="drinkPrice">$21.25</p>
               </div>
             </div>
           </Drinks>
           <Drinks>
             <div>
-              <Image src="/images/drink-21.png" alt="Peach Punch" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/cocktail-Sangria-white-2.png" alt="White Sangria" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
-              <h1>Peach Punch</h1>
+              <h1>White Sangria</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  1.5oz CIROC Peach, Cranberry Juice, Orange Juice, Lime
+                  Smirnoff Lime Vodka, Bolla Pinot Grigio, Pineapple Juice, Fresca Grapefruit Sparkling Soda, Apple Garnish
                 </p>
-                <p className="drinkPrice">$20.00</p>
+                <p className="drinkPrice">$21.25</p>
               </div>
             </div>
           </Drinks>
           <Drinks>
             <div>
-              <Image src="/images/drink-26.png" alt="Pineapple Breezer" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/Pucker-Up.png" alt="Citrus Breeze" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
-              <h1>Pineapple Breezer</h1>
+              <h1>Citrus Breeze</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  1.5oz CIROC Pineapple, Grapefruit Juice, Sprite
+                  Smirnoff Pink Lemonade, Grapefruit Juice, Lemonade, Sprite
                 </p>
-                <p className="drinkPrice">$20.00</p>
+                <p className="drinkPrice">$21.25</p>
               </div>
             </div>
           </Drinks>
           <Drinks>
             <div>
-              <Image src="/images/drink-22.png" alt="Buzzer Beater" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/Pomeberry-Punch.png" alt="Pomberry Punch" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
-              <h1>Buzzer Beater</h1>
+              <h1>Pomberry Punch</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  Smirnoff Vodka, Watermelon Red Bull, Lime
+                  Crown Royal Blackberry, POM Pomegranate Juice, Lemonade, Ginger Ale
                 </p>
-                <p className="drinkPrice">
-                  1oz&emsp;$17.75
-                  <br />
-                  2oz&emsp;$27.50
-                </p>
+                <p className="drinkPrice">$21.25</p>
               </div>
             </div>
           </Drinks>
           <Drinks>
             <div>
-              <Image src="/images/drink-23.png" alt="Citrus Sling" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/Lime-Tide.png" alt="Lime Tide" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
+            </div>
+            <div>
+              <h1>Lime Tide</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Smirnoff Lime Vodka, Orange Juice, Pineapple Juice, Cranberry Juice, Sprite
+                </p>
+                <p className="drinkPrice">$21.25</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <Image src="/images/Triple-Berry-Smash.png" alt="Triple Berry Smash" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
+            </div>
+            <div>
+              <h1>Triple Berry Smash</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Smirnoff Raspberry Vodka, Cran-Grape Juice, Lemonade, Sprite
+                </p>
+                <p className="drinkPrice">$21.25</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <Image src="/images/ReposadoPaloma.png" alt="Paloma" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
+            </div>
+            <div>
+              <h1>Paloma</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Don Julio Reposado, Pink Grapefruit Juice, Fresca Grapefruit Sparkling Soda
+                </p>
+                <p className="drinkPrice">$25.50</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <Image src="/images/Sunset-Spritz.png" alt="Sunset Spritz (Mocktail)" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
               <h1>
-                Citrus Sling <br />
-                <small>(mocktail)</small>
+                Sunset Spritz <br />
+                <small>(Mocktail)</small>
               </h1>
               <div className="description">
                 <p className="drinkType wide">
-                  Seedlip Non-Alcoholic Spirits, Lemonade, Tonic, Lemon
+                  Seedlip Notas De Agave, Cranberry Juice, Fresca Grapefruit Sparkling Soda
                 </p>
-                <p className="drinkPrice">$12.50</p>
+                <p className="drinkPrice">$13.25</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <Image src="/images/cocktail-caesar-matts.png" alt="Matt & Steve's Signature Caesar" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
+            </div>
+            <div>
+              <h1>Matt &amp; Steve&apos;s Signature Caesar</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Smirnoff Vodka, Carrol &amp; Co Blood Mix, Matt &amp; Steve&apos;s Caesar Juice, Matt &amp; Steve&apos;s Extreme Pickle
+                </p>
+                <p className="drinkPrice">
+                  1oz&emsp;$19.00
+                  <br />
+                  2oz&emsp;$30.25
+                </p>
               </div>
             </div>
           </Drinks>
 
-          <Liquor>
-            <h1 className="sectionTitle">Liquor</h1>
-            <p className="liquorTitle">PREMIUM</p>
-            <p className="liquorPrice">
-              1oz - $13.25
-              <br />
-              2oz - $24.50
-            </p>
-            <p className="liquorTitle">DELUXE</p>
-            <p className="liquorPrice">
-              1oz - $13.75
-              <br />
-              2oz - $25.50
-            </p>
-            <p className="liquorTitle">ULTRA-PREMIUM</p>
-            <p className="liquorPrice">
-              1oz - $14.50
-              <br />
-              2oz - $27.00
-            </p>
-            <p className="liquorTitle">DON JULIO BLANCO TEQUILA</p>
-            <p className="liquorPrice">
-              1oz - $18.00
-              <br />
-              2oz - $34.00
-            </p>
-
-            <h1 className="sectionTitle">WINE</h1>
-            <p className="liquorTitle">HOUSE</p>
-            <p>
-              <em>
-                FOLONARI PINOT GRIGIO <br />
-                YELLOW TAIL CABERNET SAUVIGNON
-              </em>
-            </p>
-            <p className="liquorPrice">9oz - $20.50</p>
-            <p className="liquorTitle">PREMIUM</p>
-            <p>
-              <em>
-                VILLA MARIA SAUVIGNON BLANC <br />
-                BREAD & BUTTER CABERNET SAUVIGNON <br />
-                BREAD & BUTTER CHARDONNAY
-              </em>
-            </p>
-            <p className="liquorPrice">9oz - $23.50</p>
-          </Liquor>
+       
         </DraughtDeck>
         <p className="notes">Prices exclude all applicable taxes</p>
         &nbsp;
