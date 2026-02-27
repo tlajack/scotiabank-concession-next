@@ -564,128 +564,139 @@ export default function DraughtDeckPage() {
 
           <Drinks>
             <div>
-              <Image src="/images/drink-25.png" alt="Mango Tango " width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/cocktail-Sangria-red-2.png" alt="Red Sangria" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
-              <h1>Mango Tango </h1>
+              <h1>Red Sangria</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  1.5oz CIROC Mango, Cranberry Juice, Lemonade, Sprite
+                  Crown Royal Blackberry, Yellow Tail Cabernet Sauvignon, POM Pomegranate Juice, Ginger Ale, Apple Garnish
                 </p>
-                <p className="drinkPrice">$20.00</p>
+                <p className="drinkPrice">$21.25</p>
               </div>
             </div>
           </Drinks>
           <Drinks>
             <div>
-              <Image src="/images/drink-21.png" alt="Peach Punch" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/cocktail-Sangria-white-2.png" alt="White Sangria" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
-              <h1>Peach Punch</h1>
+              <h1>White Sangria</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  1.5oz CIROC Peach, Cranberry Juice, Orange Juice, Lime
+                  Smirnoff Lime Vodka, Bolla Pinot Grigio, Pineapple Juice, Fresca Grapefruit Sparkling Soda, Apple Garnish
                 </p>
-                <p className="drinkPrice">$20.00</p>
+                <p className="drinkPrice">$21.25</p>
               </div>
             </div>
           </Drinks>
           <Drinks>
             <div>
-              <Image src="/images/drink-26.png" alt="Pineapple Breezer" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/Pucker-Up.png" alt="Citrus Breeze" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
-              <h1>Pineapple Breezer</h1>
+              <h1>Citrus Breeze</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  1.5oz CIROC Pineapple, Grapefruit Juice, Sprite
+                  Smirnoff Pink Lemonade, Grapefruit Juice, Lemonade, Sprite
                 </p>
-                <p className="drinkPrice">$20.00</p>
+                <p className="drinkPrice">$21.25</p>
               </div>
             </div>
           </Drinks>
           <Drinks>
             <div>
-              <Image src="/images/drink-22.png" alt="Buzzer Beater" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/Pomeberry-Punch.png" alt="Pomberry Punch" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
-              <h1>Buzzer Beater</h1>
+              <h1>Pomberry Punch</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  Smirnoff Vodka, Watermelon Red Bull, Lime
+                  Crown Royal Blackberry, POM Pomegranate Juice, Lemonade, Ginger Ale
                 </p>
-                <p className="drinkPrice">
-                  1oz&emsp;$17.75
-                  <br />
-                  2oz&emsp;$27.50
-                </p>
+                <p className="drinkPrice">$21.25</p>
               </div>
             </div>
           </Drinks>
           <Drinks>
             <div>
-              <Image src="/images/drink-23.png" alt="Citrus Sling" width={150} height={300} style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/Lime-Tide.png" alt="Lime Tide" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
+            </div>
+            <div>
+              <h1>Lime Tide</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Smirnoff Lime Vodka, Orange Juice, Pineapple Juice, Cranberry Juice, Sprite
+                </p>
+                <p className="drinkPrice">$21.25</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <Image src="/images/Triple-Berry-Smash.png" alt="Triple Berry Smash" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
+            </div>
+            <div>
+              <h1>Triple Berry Smash</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Smirnoff Raspberry Vodka, Cran-Grape Juice, Lemonade, Sprite
+                </p>
+                <p className="drinkPrice">$21.25</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <Image src="/images/ReposadoPaloma.png" alt="Paloma" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
+            </div>
+            <div>
+              <h1>Paloma</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Don Julio Reposado, Pink Grapefruit Juice, Fresca Grapefruit Sparkling Soda
+                </p>
+                <p className="drinkPrice">$25.50</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <Image src="/images/Sunset-Spritz.png" alt="Sunset Spritz (Mocktail)" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div>
               <h1>
-                Citrus Sling <br />
-                <small>(mocktail)</small>
+                Sunset Spritz <br />
+                <small>(Mocktail)</small>
               </h1>
               <div className="description">
                 <p className="drinkType wide">
-                  Seedlip Non-Alcoholic Spirits, Lemonade, Tonic, Lemon
+                  Seedlip Notas De Agave, Cranberry Juice, Fresca Grapefruit Sparkling Soda
                 </p>
-                <p className="drinkPrice">$12.50</p>
+                <p className="drinkPrice">$13.25</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <Image src="/images/cocktail-caesar-matts.png" alt="Matt & Steve's Signature Caesar" width={400} height={400} style={{ width: '100%', height: 'auto' }} />
+            </div>
+            <div>
+              <h1>Matt &amp; Steve&apos;s Signature Caesar</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Smirnoff Vodka, Carrol &amp; Co Blood Mix, Matt &amp; Steve&apos;s Caesar Juice, Matt &amp; Steve&apos;s Extreme Pickle
+                </p>
+                <p className="drinkPrice">
+                  1oz&emsp;$19.00
+                  <br />
+                  2oz&emsp;$30.25
+                </p>
               </div>
             </div>
           </Drinks>
 
-          <Liquor>
-            <h1 className="sectionTitle">Liquor</h1>
-            <p className="liquorTitle">PREMIUM</p>
-            <p className="liquorPrice">
-              1oz - $13.25
-              <br />
-              2oz - $24.50
-            </p>
-            <p className="liquorTitle">DELUXE</p>
-            <p className="liquorPrice">
-              1oz - $13.75
-              <br />
-              2oz - $25.50
-            </p>
-            <p className="liquorTitle">ULTRA-PREMIUM</p>
-            <p className="liquorPrice">
-              1oz - $14.50
-              <br />
-              2oz - $27.00
-            </p>
-            <p className="liquorTitle">DON JULIO BLANCO TEQUILA</p>
-            <p className="liquorPrice">
-              1oz - $18.00
-              <br />
-              2oz - $34.00
-            </p>
-
-            <h1 className="sectionTitle">WINE</h1>
-            <p className="liquorTitle">HOUSE</p>
-            <p>
-              <em>
-                FOLONARI PINOT GRIGIO <br />
-                YELLOW TAIL CABERNET SAUVIGNON
-              </em>
-            </p>
-            <p className="liquorPrice">9oz - $20.50</p>
-            <p className="liquorTitle">PREMIUM</p>
-            <p>
-              <em>
-                VILLA MARIA SAUVIGNON BLANC <br />
-                BREAD & BUTTER CABERNET SAUVIGNON <br />
-                BREAD & BUTTER CHARDONNAY
-              </em>
-            </p>
-            <p className="liquorPrice">9oz - $23.50</p>
-          </Liquor>
+       
         </DraughtDeck>
         <p className="notes">Prices exclude all applicable taxes</p>
         &nbsp;
