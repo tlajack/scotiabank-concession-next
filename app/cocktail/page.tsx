@@ -159,7 +159,7 @@ export default function CocktailPage() {
           />
           <h2>Red Sangria</h2>
           <p>
-            Crown Royal Blackberry, Yellow Tail Cabernet Sauvignon, POM
+            Crown Royal Blackberry, [yellow tail] Cabernet Sauvignon, POM
             Pomegranate Juice, Ginger Ale, Apple Garnish
           </p>
         </div>
@@ -277,7 +277,20 @@ export default function CocktailPage() {
             Juice, Matt & Steve&apos;s Extreme Pickle
           </p>
         </div>
-
+        <div className="cocktail">
+          <Image
+            className="logo"
+            src="/images/cocktail-rbpeach.png"
+            alt="The Wing-Man"
+            width={400}
+            height={400}
+            style={{ width: '100%', height: 'auto' }}
+          />
+          <h2>The Wing-Man</h2>
+          <p>
+            Red Bull Peach, Raspberry Vodka, Pink Grapefruit Juice
+          </p>
+        </div>
         <FlyingMenuContainer className={menuState ? 'active' : 'inactive'}>
           <ul>
             <li>
