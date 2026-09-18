@@ -258,8 +258,12 @@ export default function SpecialtyFoodPage() {
             <p>
               <strong>St. Patties Burgers + Poutine (Section 122)</strong> –
               Cheese Please Burger (request GF bun), Smokehouse Burger (remove
-              Onion Ring, request GF bun), Spice Box Burger (Remove Crispy
-              Jalapeno, Request GF Bun), Vegan Burger (request GF bun), Fries
+              fried pickles, request GF bun), Bacon Double Cheeseburger
+              (request GF bun), Vegan Burger (request GF bun), Fries
+            </p>
+            <p>
+              <strong>Real Sports (Section 109)</strong> Double Smash Burger
+              (request GF bun)
             </p>
           </div>
         </div>
@@ -271,6 +275,10 @@ export default function SpecialtyFoodPage() {
           <div className="content">
             <p>
               <strong>Poutinerie (Section 322)</strong> – Fries
+            </p>
+            <p>
+              <strong>Real Sports (Section 311)</strong> Double Smash Burger
+              (request GF bun)
             </p>
           </div>
         </div>
@@ -288,7 +296,8 @@ export default function SpecialtyFoodPage() {
             <p>
               <strong>Ancestral Quinoa Beer</strong> is available at Coors
               Light Chill Zone at Section 314, as well as at bars located at
-              Section 116, Section 118, Section 105, Section 111
+              Section 116, Section 118, Section 105, Section 111, Section 324,
+              Section 305, Section 307 and Section 318.
             </p>
           </div>
         </div>
@@ -316,7 +325,7 @@ export default function SpecialtyFoodPage() {
           </div>
           <div className="content">
             <p>
-              <strong>Aloette Go (Event Level)</strong> – Santa Fe Crunch
+              <strong>Aloette Go (Event Level)</strong> – Wedge Salad
             </p>
             <p>
               <strong>KIBO (Event Level)</strong> – Vegetarian Maki, Spicy
@@ -331,9 +340,8 @@ export default function SpecialtyFoodPage() {
           </div>
           <div className="content">
             <p>
-              <strong>Molson Market (Section 101)</strong> – KIBO vegan
-              options available upon request (select events only), Vegan Power
-              Bowl
+              <strong>Molson Market (Section 101)</strong> – KIBO
+              vegan/vegetarian options available (select events only)
             </p>
             <p>
               <strong>Hogtown (Section 103 &amp; 112)</strong> – Plant-Based
@@ -343,20 +351,20 @@ export default function SpecialtyFoodPage() {
               <strong>Wicked Carib (Section 104)</strong> – Vegan Doubles
             </p>
             <p>
-              <strong>Panini Shop (Section 106)</strong> Vegan Portobello
+              <strong>Panini Shop (Section 106)</strong> Vegan Italian
               Sandwich
             </p>
             <p>
               <strong>Real Sports (Section 109)</strong> Nacho Fries
             </p>
             <p>
-              <strong>Mac & Cheese Boutique (Section 110)</strong> Classic mac
-              &amp; Cheese, International Mac &amp; Cheese, Classic Grilled
-              Cheese
+              <strong>Mac & Cheese Boutique (Section 110)</strong> Classic Mac
+              &amp; Cheese, Euro Mac &amp; Cheese, Pink Velvet Mac &amp;
+              Cheese, Classic Grilled Cheese, Cheese Boutique Crunch
             </p>
             <p>
-              <strong>La Cantina (Section 120)</strong> – Vegan Chorizo
-              Burrito, Loaded Nachos, French Fries
+              <strong>La Cantina (Section 120)</strong> – Vegan Chorizo Bowl,
+              Loaded Nachos, French Fries, Fried KD Bites
             </p>
             <p>
               <strong>Hot Stove Carve (Section 117)</strong> – Truffled
@@ -368,8 +376,8 @@ export default function SpecialtyFoodPage() {
             </p>
             <p>
               <strong>St. Patties Burgers + Poutine (Section 122)</strong> –
-              Vegan Burger, Fries, Vegan Mushroom Poutine, Fries & Gravy (ask
-              for vegan gravy)
+              Vegan Burger, Mediterranean Fries, Vegan Poutine, Fries & Gravy
+              (ask for vegan gravy), Fries
             </p>
           </div>
         </div>
@@ -384,15 +392,23 @@ export default function SpecialtyFoodPage() {
               Slice, Vegetarian Slice
             </p>
             <p>
+              <strong>Food Junction (Section 308)</strong> – Fried KD Bites
+            </p>
+            <p>
+              <strong>Cherry Street BBQ (Section 313)</strong> – Vegetarian
+              BBQ Empanadas, Side Mac &amp; Cheese
+            </p>
+            <p>
               <strong>Hogtown (Section 320)</strong> – Plant-Based Hot Dog
             </p>
             <p>
               <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
-              Mushroom Poutine, Fries & Gravy (ask for vegan gravy)
+              Poutine, Mediterranean Fries, Fries & Gravy (ask for vegan
+              gravy)
             </p>
             <p>
               <strong>Food Junction (Section 324)</strong> Nacho Fries, Loaded
-              Nachos
+              Nachos, Fried KD Bites
             </p>
           </div>
         </div>
@@ -400,8 +416,7 @@ export default function SpecialtyFoodPage() {
           <div></div>
           <div className="content">
             <p>
-              <strong>Vegetarian Snacks</strong> - Popcorn, Salted Pretzel,
-              Plant-Based Drumstick (Section 321 only)
+              <strong>Vegetarian Snacks</strong> - Popcorn, Salted Pretzel
             </p>
           </div>
         </div>
@@ -443,8 +458,7 @@ export default function SpecialtyFoodPage() {
           <div className="content">
             <p>
               <strong>Molson Market (Section 101)</strong> – KIBO vegan
-              options available upon request (select events only), Vegan Power
-              Bowl
+              options available (select events only)
             </p>
             <p>
               <strong>Hogtown (Section 103 &amp; 112)</strong> – Plant-Based
@@ -454,17 +468,16 @@ export default function SpecialtyFoodPage() {
               <strong>Wicked Carib (Section 104)</strong> – Vegan Doubles
             </p>
             <p>
-              <strong>Panini Shop (Section 106)</strong> – Vegan Portobello
+              <strong>Panini Shop (Section 106)</strong> – Vegan Italian
               Sandwich
             </p>
             <p>
-              <strong>La Cantina (Section 120)</strong> – Vegan Chorizo
-              Burrito
+              <strong>La Cantina (Section 120)</strong> – Vegan Chorizo Bowl
             </p>
             <p>
               <strong>St. Patties Burgers + Poutine (Section 122)</strong> –
-              Vegan Burger, Fries, Vegan Mushroom Poutine, Fries & Gravy (ask
-              for vegan gravy)
+              Vegan Burger, Fries, Vegan Poutine, Fries & Gravy (ask for vegan
+              gravy)
             </p>
           </div>
         </div>
@@ -478,7 +491,7 @@ export default function SpecialtyFoodPage() {
             </p>
             <p>
               <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
-              Mushroom Poutine, Fries & Gravy (ask for vegan gravy)
+              Poutine, Fries & Gravy (ask for vegan gravy)
             </p>
           </div>
         </div>
@@ -486,8 +499,7 @@ export default function SpecialtyFoodPage() {
           <div></div>
           <div className="content">
             <p>
-              <strong>Vegan Snacks</strong> - Popcorn, Salted Pretzel,
-              Plant-Based Drumstick (Section 321 only)
+              <strong>Vegan Snacks</strong> - Popcorn, Salted Pretzel
             </p>
           </div>
         </div>
@@ -531,33 +543,39 @@ export default function SpecialtyFoodPage() {
           </div>
           <div className="content">
             <p>
-              <strong>Wicked Carib (Section 104)</strong> – Wicked Jerk
-              Chicken Sandwich, Doubles, Wicked Jerk Chicken Roti Wrap, Wicked
-              Beef & Oxtail Roti, Patty Sandwiches, Wicked BBQ Chicken
-              Sandwich
+              <strong>Wicked Carib (Section 104)</strong> – All prepared food
+              items are Halal
             </p>
             <p>
               <strong>Gallery Bars (Section 108M, Section 117M)</strong> –
-              Prime Rib Sandwich (select events only), Wicked Oxtail & Beef
-              Patty Sandwich (select events only)
+              Prime Rib Sandwich
             </p>
             <p>
-              <strong>Crispy (Section 107) </strong> – Chicken Drum Sticks (no
-              potato waves), Chicken Tenders (no potato waves) Chicken
-              Sandwich, Spicy Chicken Sandwich, Prime Rib Sandwich & Chips,
-              Crispy KD Crunch
+              <strong>Crispy (Section 107) </strong> – Crispy Chicken Wings
+              (no potato waves), Lemon Pepper Chicken Wings (no potato waves),
+              Chicken Tenders (no potato waves), Fried Chicken Sandwich, Spicy
+              Chicken Sandwich, Loaded Crispy Nachos, Fried KD Bites
+            </p>
+            <p>
+              <strong>Real Sports (Section 109)</strong> – Nacho Fries,
+              Nashville Sliders
+            </p>
+            <p>
+              <strong>Mac &amp; Cheese Boutique (Section 110)</strong> – Prime
+              Rib Sandwich
             </p>
             <p>
               <strong>La Cantina (Section 120) </strong> – Chicken Tenders &
-              Fries, Buffalo Tenders & Fries, Chicken Burrito, Beef Burrito,
-              Chicken Quesadilla, Beef Quesadilla, Loaded Nachos, Loaded Beef
-              Nachos
+              Fries, Buffalo Tenders & Fries, Chicken Bowl, Beef Bowl, Chicken
+              Quesadilla, Beef Quesadilla, Loaded Nachos, Loaded Beef Nachos,
+              Fried KD Bites
             </p>
             <p>
               <strong>St. Patties Burgers + Poutine (Section 122)</strong> –
-              Rotisserie Chicken Poutine (sub vegan gravy), Vegan Mushroom
-              Poutine, Classic Poutine (sub vegan gravy), Fries & Gravy (sub
-              vegan gravy)
+              Rotisserie Chicken Poutine (sub vegan gravy), Vegan Poutine,
+              Classic Poutine (sub vegan gravy), Fries & Gravy (sub vegan
+              gravy), Cheese Please Burger, Smokehouse Burger, Vegan
+              Cheeseburger
             </p>
           </div>
         </div>
@@ -568,19 +586,31 @@ export default function SpecialtyFoodPage() {
           </div>
           <div className="content">
             <p>
+              <strong>Food Junction (Section 308)</strong> – Prime Rib
+              Sandwich, Fried Chicken Sandwich, Loaded Nachos, Fried KD Bites
+            </p>
+            <p>
+              <strong>Real Sports (Section 311)</strong> – Nacho Fries,
+              Chicken Wings (both flavours), Nashville Sliders
+            </p>
+            <p>
+              <strong>Cherry Street BBQ (Section 313)</strong> – Prime Rib
+              Sandwich
+            </p>
+            <p>
               <strong>Crispy (Section 318) </strong> – Chicken Tenders (no
-              potato waves) Chicken Sandwich, Spicy Chicken Sandwich, Crispy
-              KD Crunch
+              potato waves), Fried Chicken Sandwich, Spicy Chicken Sandwich,
+              Loaded Crispy Nachos
             </p>
             <p>
               <strong>Poutinerie (Section 322)</strong> – Rotisserie Chicken
-              Poutine (sub vegan gravy), Vegan Mushroom Poutine, Classic
-              Poutine (sub vegan gravy), Fries & Gravy (sub vegan gravy)
+              Poutine (sub vegan gravy), Vegan Poutine, Classic Poutine (sub
+              vegan gravy), Fries & Gravy (sub vegan gravy)
             </p>
             <p>
               <strong>Food Junction (Section 324)</strong> – Fingers & Fries,
               Buffalo Fingers & Fries, Nacho Fries, Loaded Nachos, Prime Rib
-              Sandwich & Chips
+              Sandwich & Chips, Fried KD Bites
             </p>
           </div>
         </div>
